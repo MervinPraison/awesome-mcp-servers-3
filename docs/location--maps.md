@@ -36,18 +36,15 @@ Servers using mapping APIs, providing geolocation services, address lookups, or 
 - [overstarry/qweather-mcp](https://github.com/overstarry/qweather-mcp): Provides weather information query capabilities through the QWeather API using Model Context Protocol.
 - [pinnaclesoft-ko/seoul_data_mcp](https://github.com/pinnaclesoft-ko/seoul_data_mcp): Facilitates access to Seoul's public data through an MCP server, offering insights into subway usage and cultural events.
 - [tonykonst/mcp-gmaps](https://github.com/tonykonst/mcp-gmaps): A versatile collection of reference implementations for the Model Context Protocol, showcasing secure and controlled access to tools and data sources for LLMs.
-- [PsychArch/caiyun-mcp-tools](https://github.com/PsychArch/caiyun-mcp-tools): Access real-time weather data, forecasts, and alerts through the Caiyun Weather API using this MCP server.
 - [yhwancha/mylocation-mcp](https://github.com/yhwancha/mylocation-mcp): Provides location services through coordinate and IP-based lookups using TypeScript.
 - [Cyreslab-AI/satellitetracking-mcp-server](https://github.com/Cyreslab-AI/satellitetracking-mcp-server): Access real-time satellite tracking data and predictions using the N2YO API.
 - [Cyreslab-AI/marinetraffic-mcp-server](https://github.com/Cyreslab-AI/marinetraffic-mcp-server): Provides real-time vessel tracking and detailed information access through MarineTraffic data.
 - [marcusbai/caiyun-weather-mcp](https://github.com/marcusbai/caiyun-weather-mcp): Provides real-time and forecast weather data using the Caiyun Weather API with MCP integration.
 - [jlfliao/weather-mcp](https://github.com/jlfliao/weather-mcp): A weather-focused MCP server that integrates with Claude Desktop for seamless weather data retrieval and processing.
 - [jameskanyiri/simple_weather_mcp_server](https://github.com/jameskanyiri/simple_weather_mcp_server): Provides weather alerts and forecasts using the National Weather Service API via a simple MCP server.
-- [puran1218/arcgis-location-services-mcp](https://github.com/puran1218/arcgis-location-services-mcp): Facilitates geocoding, reverse geocoding, and location-based services using ArcGIS Location Services.
 - [zxypro1/amap-maps-mcp-server](https://github.com/zxypro1/amap-maps-mcp-server): Facilitates seamless integration with AMap's mapping services through a dedicated MCP server.
 - [yqx-wlb/weather-mcp](https://github.com/yqx-wlb/weather-mcp): Provides weather forecasts and alerts through an MCP server for integration with Cursor.
 - [caiyunapp/mcp-caiyun-weather](https://github.com/caiyunapp/mcp-caiyun-weather): Provides real-time, hourly, and weekly weather forecasts and alerts using Caiyun Weather API.
-- [kevinkelin/mcp-gaodeweather-server](https://github.com/kevinkelin/mcp-gaodeweather-server): Provides real-time weather updates using Gaode Map's API for integration with Claude Desktop.
 - [kicker315/deepseek_qgis_mcp](https://github.com/kicker315/deepseek_qgis_mcp): Integrates QGIS with Claude AI via MCP for seamless project and layer management, code execution, and processing within QGIS.
 - [szypetike/weather-mcp-server](https://github.com/szypetike/weather-mcp-server): Provides global weather information via a Model Context Protocol server, with support for real-time data and mock fallback.
 - [chaminda360/weather-server](https://github.com/chaminda360/weather-server): A TypeScript-based server offering weather data management and summarization through MCP protocols.
@@ -74,6 +71,7 @@ Servers using mapping APIs, providing geolocation services, address lookups, or 
 - [chinlung/weather-api-project](https://github.com/chinlung/weather-api-project): A dedicated MCP server for Claude AI, providing real-time weather forecasts, alerts, and rainfall data from Taiwan's Central Weather Bureau.
 - [MiLLeRRain/weather-server](https://github.com/MiLLeRRain/weather-server): A TypeScript-based MCP server that enhances LLM interactions by providing structured weather data and a simple notes system.
 - [lework/mcp-server-ip](https://github.com/lework/mcp-server-ip): Provides IP address geolocation queries using the Model Context Protocol with HTTP SSE data transmission.
+- [LatLng](https://www.latlng.work/mcp): Official LatLng MCP server for geocoding, reverse geocoding, places search, nearby places, and place categories powered by OpenStreetMap data. Remote endpoint: `https://mcp.latlng.work/mcp`. Transport: streamable-http. Auth: LatLng Server Key. Install: `npx -y @latlng/mcp-server`.
 - [jagan-shanmugam/open-streetmap-mcp](https://github.com/jagan-shanmugam/open-streetmap-mcp): Enhances LLM capabilities with geospatial data and location-based services using OpenStreetMap.
 - [SeanLF/weather-mcp](https://github.com/SeanLF/weather-mcp): Provides weather forecast data from the Government of Canada Weather API, integrating seamlessly with Claude Desktop and other MCP-compatible clients.
 - [shanggqm/hefeng-mcp-weather](https://github.com/shanggqm/hefeng-mcp-weather): Provides weather forecast data for locations in China via the HeFeng Weather API.
@@ -91,3 +89,6 @@ Servers using mapping APIs, providing geolocation services, address lookups, or 
 - [youqingkui/dify_service](https://github.com/youqingkui/dify_service): A server that manages note storage and summarization with custom URI schemes and prompt tools.
 - [egublog/claude_mcp_weather](https://github.com/egublog/claude_mcp_weather): A TypeScript-based MCP server implementing a notes system with tools for note creation and summarization.
 - [duan-li/mcp-weather-server-example](https://github.com/duan-li/mcp-weather-server-example): A weather server utilizing MCP to manage and summarize note resources with customizable prompts.
+- [danishashko/geocode-mcp](https://github.com/danishashko/geocode-mcp): Geocoding via OpenStreetMap Nominatim: forward and reverse geocoding, place search, and distance between locations. 4 tools, no API key, install via `npx geocode-mcp`.
+- [HeavenEcoHub/heaven-homes-mcp](https://heavenhomeshub.com/mcp): Global real-estate marketplace — search property across 190+ countries, find verified agents, and pull city market summaries. 5 tools (search_properties, get_property, find_agents, list_cities, get_market_summary). Transport: streamable-http. Auth: none. License: Proprietary. Hosted by Heaven Homes (TypeScript / Node 22, Cloud Functions).
+- [glc-rag/geo-mcp](https://github.com/glc-rag/geo-mcp): Free GeoNames-backed geospatial MCP with countries, cities, admin areas, marine locations, POIs, distance, and nearby search across roughly 2.5M entities. Remote Streamable HTTP endpoint at `https://mcp.glc-rag.hu/mcp`; bearer token registration is available for agents.

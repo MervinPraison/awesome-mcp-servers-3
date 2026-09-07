@@ -2,13 +2,13 @@
 
 Servers controlling hardware devices, interacting with embedded systems, serial communication, 3D printers, or smart home systems.
 
+- [veonua/smartthings-mcp](https://github.com/veonua/smartthings-mcp): Lightweight Samsung SmartThings MCP server for room mapping, device listing, status checks, and device command execution.
 - [kukapay/modbus-mcp](https://github.com/kukapay/modbus-mcp): Standardizes and contextualizes Modbus data for seamless AI agent integration with industrial IoT systems.
 - [zradlicz/particle-mcp-server](https://github.com/zradlicz/particle-mcp-server): Facilitates AI-driven management of Particle IoT devices through natural language commands.
 - [Volt23/mcp-arduino-server](https://github.com/Volt23/mcp-arduino-server): Facilitates Arduino development workflows by bridging MCP with Arduino CLI for sketch, board, library, and file management.
 - [xiangmy21/iotdb-mcp-server-TreeModel](https://github.com/xiangmy21/iotdb-mcp-server-TreeModel): Facilitates database interaction and business intelligence through IoTDB with SQL query execution capabilities.
 - [liorfranko/home-assistant-mcp](https://github.com/liorfranko/home-assistant-mcp): Integrate Anthropic's Claude with Home Assistant for seamless natural language control and monitoring of home automation systems.
 - [dhavalgujar/esp-rainmaker-mcp](https://github.com/dhavalgujar/esp-rainmaker-mcp): Facilitates interaction with ESP RainMaker devices through MCP-compatible clients using the ESP-Rainmaker CLI.
-- [hussam0is/solidworks-mcp-server](https://github.com/hussam0is/solidworks-mcp-server): Enables AI assistants to perform CAD operations in SolidWorks through natural language requests.
 - [srmorete/adb-mcp](https://github.com/srmorete/adb-mcp): Facilitates interaction between AI models and Android devices using ADB through a TypeScript-based MCP server.
 - [ioehub/ioehub-mqtt-mcp-server](https://github.com/ioehub/ioehub-mqtt-mcp-server): Facilitates IoT device communication via MQTT for temperature sensing and LED control using FastMCP framework.
 - [simon-duchastel/lifx-lan-mcp](https://github.com/simon-duchastel/lifx-lan-mcp): Enable AI agents to control LIFX lights over a local network using the Model Context Protocol.
@@ -19,7 +19,6 @@ Servers controlling hardware devices, interacting with embedded systems, serial 
 - [apache/iotdb-mcp-server](https://github.com/apache/iotdb-mcp-server): Facilitates database interaction and business intelligence through IoTDB with SQL query execution capabilities.
 - [alecf/airtop-mcp](https://github.com/alecf/airtop-mcp): Facilitates interaction with Airtop's browser automation service through a Model Context Protocol server.
 - [omni-mcp/isaac-sim-mcp](https://github.com/omni-mcp/isaac-sim-mcp): Enables natural language control of NVIDIA Isaac Sim for dynamic robot simulations and scene manipulation.
-- [JackieTien97/iotdb_mcp_server](https://github.com/JackieTien97/iotdb_mcp_server): Facilitates secure and structured AI-driven exploration and analysis of IoTDB databases through a controlled MCP interface.
 - [sankhodeep/android-adb-controller](https://github.com/sankhodeep/android-adb-controller): Facilitates AI-driven control of Android devices through ADB commands, enabling functionalities like device listing and screen tapping.
 - [github-hewei/mcp-android-adb-server](https://github.com/github-hewei/mcp-android-adb-server): Facilitates Android device management through ADB commands, enhanced with visual model integration for screen content description.
 - [wolfcoming/adb_mcp_server](https://github.com/wolfcoming/adb_mcp_server): Facilitates remote control of Android devices via ADB using the MCP protocol, enabling device management, screen operations, input actions, app management, and more.
@@ -61,4 +60,12 @@ Servers controlling hardware devices, interacting with embedded systems, serial 
 - [allenporter/mcp-server-home-assistant](https://github.com/allenporter/mcp-server-home-assistant): Facilitates seamless integration of Home Assistant with the Model Context Protocol for enhanced smart home automation.
 - [octoco-ltd/sheetsdata-mcp](https://github.com/octoco-ltd/sheetsdata-mcp): Instant access to electronic component datasheets for AI agents — specs, pinouts, package info, absolute max ratings extracted from manufacturer PDFs on demand.
 - [roomi-fields/osc-bridge](https://github.com/roomi-fields/osc-bridge): OSC ↔ MIDI/SysEx bridge for 849 hardware synthesizers plus music software (Ableton, Bitwig, Reaper, SuperCollider…). A MIDI MCP and OSC MCP — discover devices, read their named control surface, and send OSC to drive them. `npx -y @roomi-fields/osc-bridge mcp`
-
+- [daedalus/mcp-canbus](https://github.com/daedalus/mcp-canbus) - MCP server for CAN bus communication.
+- [daedalus/mcp-delonghi-ecam](https://github.com/daedalus/mcp-delonghi-ecam) - MCP server for DeLonghi ECAM espresso coffee machines via local network.
+- [daedalus/mcp-homeassistant](https://github.com/daedalus/mcp-homeassistant) - MCP server for Home Assistant integration.
+- [daedalus/mcp-kicad](https://github.com/daedalus/mcp-kicad) - MCP server exposing KiCad PCB Editor functionality via IPC API.
+- [daedalus/mcp-rs232](https://github.com/daedalus/mcp-rs232) - An MCP server that exposes RS232 serial port connectivity.
+- [daedalus/mcp-rs485](https://github.com/daedalus/mcp-rs485) - An MCP server that exposes RS485 bus connectivity.
+- [daedalus/mcp-snap7](https://github.com/daedalus/mcp-snap7) - MCP server for python-snap7, enabling MCP clients to interact with Siemens PLCs.
+- [salitronic/eda-agent](https://github.com/salitronic/eda-agent): Automates Altium Designer over a local bridge, exposing 290+ tools for schematic, PCB, library, and project tasks, including design review, audits, SVG rendering, connectivity-driven auto-placement, panelization, and an autonomous design-plan executor.
+- [salatmaster/keenetic-mcp](https://github.com/salatmaster/keenetic-mcp): Control a Keenetic router in plain language: list connected devices with traffic and signal, check why the internet is down, read Wi-Fi and interface state, block or rename a device, assign a routing policy, and create an isolated guest or IoT network. Runs on the user's machine and talks to the router over the LAN through its own RCI API, with nothing...

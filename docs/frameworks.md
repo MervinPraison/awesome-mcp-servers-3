@@ -2,6 +2,7 @@
 
 Toolkits, SDKs, starter templates, or code frameworks designed to help developers easily build MCP-compliant servers or applications.
 
+- [actionhero/keryx](https://github.com/actionhero/keryx): Fullstack TypeScript framework for MCP and APIs on Bun. One Action can serve HTTP, WebSocket, CLI, background tasks, and MCP tools with OAuth 2.1 and streaming support. npm package: `keryx`. MIT.
 - [us-all/mcp-toolkit](https://github.com/us-all/mcp-toolkit) - Shared library for MCP server authors with token-efficient defaults: category toggles, extractFields response slimming, search-tools meta-tool, ToolRegistry, and runtime helper supporting stdio + Streamable HTTP transports.
 - [askbudi/roundtable](https://github.com/askbudi/roundtable): Zero-configuration MCP server that unifies multiple AI coding assistants (Codex, Claude Code, Cursor, Gemini) through intelligent auto-discovery and standardized interface, built on FastMCP framework.
 - [johnhenry/hackernews-mcp](https://github.com/johnhenry/hackernews-mcp): A template for creating new MCP servers with features like sandboxed JavaScript execution and debug logging.
@@ -12,7 +13,6 @@ Toolkits, SDKs, starter templates, or code frameworks designed to help developer
 - [larryhudson/figma-mcp-server](https://github.com/larryhudson/figma-mcp-server): A template for building MCP servers with TypeScript, designed to facilitate integration with AI assistants and external tools.
 - [php-mcp/laravel](https://github.com/php-mcp/laravel): Seamlessly integrates the PHP MCP Server package into Laravel, enabling applications to expose MCP tools, resources, and prompts with ease.
 - [php-mcp/server](https://github.com/php-mcp/server): A PHP library facilitating the creation of MCP-compliant servers, enabling seamless integration of PHP applications with AI tools and external systems.
-- [ArisaTaki/MCP-study](https://github.com/ArisaTaki/MCP-study): A TypeScript-based MCP server offering basic arithmetic operations and dynamic resource management.
 - [kenken64/mcp-server-java](https://github.com/kenken64/mcp-server-java): A Java-based MCP server designed for seamless integration with Claude Desktop applications.
 - [RemoteMCP/Remote-MCP](https://github.com/RemoteMCP/Remote-MCP): Facilitates seamless remote communication and centralized management of model contexts through a type-safe MCP protocol.
 - [isuyashpatel/yox-modelcontextprotocol](https://github.com/isuyashpatel/yox-modelcontextprotocol): Facilitates the setup and configuration of MCP servers using Node.js for streamlined integration.
@@ -45,7 +45,6 @@ Toolkits, SDKs, starter templates, or code frameworks designed to help developer
 - [TomCools/mcp-4-tf-quickstarts](https://github.com/TomCools/mcp-4-tf-quickstarts): Facilitates modifications to Timefold Quickstarts using a Quarkus-based MCP server.
 - [302ai/302_custom_mcp](https://github.com/302ai/302_custom_mcp): A customizable MCP service enabling tool selection and flexible configuration for diverse needs.
 - [johnhenry/mcp-server-template](https://github.com/johnhenry/mcp-server-template): A template for creating new MCP servers with sandboxed JavaScript execution and debugging capabilities.
-- [3eer/mcp-server](https://github.com/3eer/mcp-server): A minimal TypeScript MCP server using fastMCP that provides a simple 'hello' response.
 - [Streamline-TS/mcp-runner](https://github.com/Streamline-TS/mcp-runner): A Rust library for managing and interacting with Model Context Protocol servers, offering JSON-RPC communication and tool management.
 - [dawsonlp/BaseMcpServer](https://github.com/dawsonlp/BaseMcpServer): A minimal Docker-based foundation for building MCP servers using the MCP Python SDK, supporting both HTTP+SSE and stdio protocols.
 - [flyingcloud-code/mcp](https://github.com/flyingcloud-code/mcp): A simple demo showcasing an MCP server and client implementation using an openrouter model, featuring tools for date, weather, and web content retrieval.
@@ -57,7 +56,6 @@ Toolkits, SDKs, starter templates, or code frameworks designed to help developer
 - [shiwenbin1617/sequential_thinking](https://github.com/shiwenbin1617/sequential_thinking): The repository provides a framework for structured problem-solving through sequential thinking, enabling dynamic thought adjustment and branching capabilities.
 - [ferrants/mcp-streamable-http-typescript-server](https://github.com/ferrants/mcp-streamable-http-typescript-server): A TypeScript-based MCP server starter kit featuring streamable HTTP transport and session management.
 - [bdx0/mcp-ddg-server](https://github.com/bdx0/mcp-ddg-server): A TypeScript-based MCP server implementing a simple notes system with resources, tools, and prompts for note management and summarization.
-- [kyoofus/dani-mcp-sse-server](https://github.com/kyoofus/dani-mcp-sse-server): A configuration-free tool for exposing FastAPI endpoints as MCP servers, utilizing FastAPI-MCP for seamless integration.
 - [keylium/simple-mcp-server](https://github.com/keylium/simple-mcp-server): A TypeScript-based MCP server implementing a simple notes system with resources, tools, and prompts for note management and summarization.
 - [ubaumann/mkdocs-mcp](https://github.com/ubaumann/mkdocs-mcp): Integrates an MCP server into the MkDocs workflow, providing a custom script to manage the build process and server launch.
 - [MaxParisotto/iggy-mcp-server](https://github.com/MaxParisotto/iggy-mcp-server): A TypeScript-based MCP server implementing a simple notes system with tools for note creation and summarization.
@@ -77,7 +75,6 @@ Toolkits, SDKs, starter templates, or code frameworks designed to help developer
 - [iaalm/rongda-mcp-server](https://github.com/iaalm/rongda-mcp-server): Facilitates the setup and execution of the Rongda MCP server with customizable environment variables.
 - [Bloomingg/simple-mcp-server](https://github.com/Bloomingg/simple-mcp-server): A TypeScript-based MCP server featuring a simple echo tool for message repetition, designed for integration with MCP clients like Claude Desktop.
 - [nazonoa/go-mcp-calculator-demo](https://github.com/nazonoa/go-mcp-calculator-demo): A Go-based MCP server demo utilizing SSE mode for calculator operations.
-- [hungry557/fastmcp-demo](https://github.com/hungry557/fastmcp-demo): Showcases the creation of a basic MCP server using the FastMCP framework with TypeScript, featuring tools for arithmetic operations and weather queries.
 - [lefrog-dont-code/mcp-docs-server](https://github.com/lefrog-dont-code/mcp-docs-server): A TypeScript-based MCP server that provides access to the complete MCP documentation, compatible with Claude Desktop and other MCP clients.
 - [nguyendinhsinh361/fastapi-mcp](https://github.com/nguyendinhsinh361/fastapi-mcp): Effortlessly convert FastAPI endpoints into MCP tools with zero configuration, enabling seamless integration and deployment.
 - [rajaravindp/serpScoop](https://github.com/rajaravindp/serpScoop): SerpScoop offers a basic yet functional MCP server setup, allowing seamless integration with various clients.
@@ -105,11 +102,7 @@ Toolkits, SDKs, starter templates, or code frameworks designed to help developer
 - [tenntenn/deepgo](https://github.com/tenntenn/deepgo): Facilitates deeper exploration of the Go ecosystem by providing tools to retrieve Go proposal meeting minutes, release notes, and the latest Go version.
 - [takunagai/mcp-server-boilerplate](https://github.com/takunagai/mcp-server-boilerplate): A foundational implementation for quickly building custom MCP servers with practical tools and extensions.
 - [tidewave-ai/mcp_proxy_elixir](https://github.com/tidewave-ai/mcp_proxy_elixir): Facilitates the connection of STDIO-based MCP clients to HTTP (SSE) based MCP servers using a proxy escript.
-- [amp-labs/sdk-node-write](https://github.com/amp-labs/sdk-node-write): Ampersand's SDK provides a declarative platform for SaaS builders to integrate product functionalities, with methods exposed as tools for AI applications.
-- [amp-labs/sdk-node-platform](https://github.com/amp-labs/sdk-node-platform): A declarative platform SDK for SaaS builders, enabling seamless product integrations with MCP server capabilities for AI applications.
-- [angxuejian/langgraph-start](https://github.com/angxuejian/langgraph-start): LangGraph Start offers a simple MCP server setup for AI applications, featuring chatbot, function calling, and RAG capabilities.
 - [warpdev/mcp-hub-mcp](https://github.com/warpdev/mcp-hub-mcp): A hub server that connects and manages multiple MCP servers, facilitating tool execution and management beyond Cursor's limitations.
-- [hyukkyulee-scllab/MCP_test](https://github.com/hyukkyulee-scllab/MCP_test): A Python-based MCP server using fastmcp to generate personalized greeting messages.
 - [llcdj/Figma-Context-MCP-main](https://github.com/llcdj/Figma-Context-MCP-main): Enable AI-powered coding tools to access and utilize Figma design data efficiently for accurate one-shot design implementations.
 - [pdm-project/template-mcp-server](https://github.com/pdm-project/template-mcp-server): A Python-based MCP server template using PDM, designed for integration with Claude Desktop.
 - [aurda012/cursor10x-mcp](https://github.com/aurda012/cursor10x-mcp): A comprehensive memory system for Cursor using MCP, enabling AI assistants to retain and recall project context for enhanced development workflows.
@@ -128,10 +121,7 @@ Toolkits, SDKs, starter templates, or code frameworks designed to help developer
 - [purinx/chadcn-figma-mcp](https://github.com/purinx/chadcn-figma-mcp): Integrates Figma designs with shadcn/ui components using MCP to bridge AI agents and the Figma API for accurate design implementation.
 - [bertvanbrakel/mcp-cadquery](https://github.com/bertvanbrakel/mcp-cadquery): Facilitates CadQuery script execution and model management via MCP, offering both HTTP SSE and Stdio modes for client integration.
 - [Guidogl/autodesk-mcp](https://github.com/Guidogl/autodesk-mcp): Facilitates interaction with Autodesk Platform Services through a Model Context Protocol server, focusing on the Model Derivative API.
-- [kenrollins/langchain-mcp-client](https://github.com/kenrollins/langchain-mcp-client): A framework that connects LangChain with MCP servers, optimized for local LLMs through Ollama.
 - [mediar-ai/mcp-rust-sdk](https://github.com/mediar-ai/mcp-rust-sdk): A Rust-based MCP server example utilizing newline-delimited JSON stdio transport for testing and debugging purposes.
-- [moekiorg/active_mcp](https://github.com/moekiorg/active_mcp): Integrate Model Context Protocol capabilities into Rails applications, enabling seamless AI tool connectivity.
-- [gendl/gendl-mcp](https://github.com/gendl/gendl-mcp): Facilitates AI-assisted generative engineering design by bridging Claude AI with the Gendl knowledge-based engineering system.
 - [SongJunSub/SpringMCP](https://github.com/SongJunSub/SpringMCP): Facilitates context-aware prompting by integrating external data sources with LLM applications using the Model Context Protocol.
 - [lukaskai/mcp-new](https://github.com/lukaskai/mcp-new): Facilitates AI-driven voice calls using Twilio and OpenAI for real-time audio processing and interaction.
 - [anht3889/cucumber-studio-mcp](https://github.com/anht3889/cucumber-studio-mcp): Integrates Cucumber Studio with AI assistants for managing BDD scenarios and projects through a Model Context Protocol server.
@@ -166,13 +156,11 @@ Toolkits, SDKs, starter templates, or code frameworks designed to help developer
 - [kyopark2014/mcp](https://github.com/kyopark2014/mcp): A comprehensive guide to implementing a RAG application using MCP with LangChain integration, leveraging AWS Lambda for seamless API access.
 - [RGGH/python360](https://github.com/RGGH/python360): A Python-based MCP server offering a note storage system with summarization and note management capabilities.
 - [connor-roberts/tsmcp](https://github.com/connor-roberts/tsmcp): A TypeScript-based MCP server that sends greeting messages to httpbin.org and integrates seamlessly with Claude for Desktop.
-- [getrupt/ashra-mcp](https://github.com/getrupt/ashra-mcp): Facilitates integration with Ashra through a Model Context Protocol server, enabling seamless communication and configuration with Claude.
 - [bash0C7/mcp-ruby-skeleton](https://github.com/bash0C7/mcp-ruby-skeleton): A Ruby-based framework for experimenting with LLM integrations via a Model Context Protocol server, featuring random number generation and JSON-RPC 2.0 compliance.
 - [lumix-labs/swift](https://github.com/lumix-labs/swift): Swift by Lumix Labs accelerates legacy code deployment and modernization with a Docker-based MCP server, reducing technical debt and incidents.
 - [cyanheads/mcp-ts-template](https://github.com/cyanheads/mcp-ts-template): A TypeScript template offering a comprehensive foundation for building MCP servers with production-ready utilities and examples.
 - [veoery/GH_mcp_server](https://github.com/veoery/GH_mcp_server): Facilitates direct interaction between LLMs and Rhino/Grasshopper for 3D modeling and analysis.
 - [madhukarkumar/mcp-ts-starter](https://github.com/madhukarkumar/mcp-ts-starter): A TypeScript starter project for building MCP servers with resources, prompts, and tools, supporting both stdio and HTTP transport options.
-- [abbracadabra/java-sse-mcp-server-demo](https://github.com/abbracadabra/java-sse-mcp-server-demo): A Java-based SSE MCP server demo showcasing single and multi-instance deployment configurations.
 - [ZedMoster/revit-mcp](https://github.com/ZedMoster/revit-mcp): Facilitates seamless integration and automation between AI assistants and Autodesk Revit using the Model Context Protocol.
 - [Arenukvern/mcp_flutter](https://github.com/Arenukvern/mcp_flutter): Connects Flutter apps with AI coding assistants for enhanced development insights and debugging capabilities.
 - [capoomgit/houdini-mcp](https://github.com/capoomgit/houdini-mcp): Facilitates control of SideFX Houdini from Claude using the Model Context Protocol, featuring a Houdini plugin and an MCP bridge script.
@@ -195,7 +183,6 @@ Toolkits, SDKs, starter templates, or code frameworks designed to help developer
 - [yjacquin/fast-mcp](https://github.com/yjacquin/fast-mcp): Fast MCP provides a Ruby-focused implementation of the Model Context Protocol, enabling seamless AI model integration with Ruby applications through a clean and expressive interface.
 - [rirachii/vapi-mcp](https://github.com/rirachii/vapi-mcp): Facilitates interaction between Claude and the VAPI API for managing calls and assistants.
 - [caicongyang/mcp-demo](https://github.com/caicongyang/mcp-demo): Facilitates database interactions via MySQL, enabling SQL queries, table creation, and schema exploration.
-- [appliedrelevance/frappe_mcp_server](https://github.com/appliedrelevance/frappe_mcp_server): Facilitates AI assistant interactions with Frappe applications via a standardized REST API interface, focusing on document operations and schema management.
 - [rokudone/codebase-rag-typescript](https://github.com/rokudone/codebase-rag-typescript): Facilitates retrieval-augmented generation for TypeScript codebases by analyzing and referencing code to answer natural language queries.
 - [jmanhype/MCPhoenix](https://github.com/jmanhype/MCPhoenix): MCPheonix leverages Elixir's Phoenix Framework to create a self-healing, distributed AI event system using the Model Context Protocol, integrating seamlessly with Cloudflare for resilient edge computing.
 - [bimgeek/speckle-mcp](https://github.com/bimgeek/speckle-mcp): Facilitates seamless interaction with Speckle's collaborative data hub, enabling project management and model querying through a Model Context Protocol server.
@@ -216,7 +203,6 @@ Toolkits, SDKs, starter templates, or code frameworks designed to help developer
 - [platformatic/mcp-node](https://github.com/platformatic/mcp-node): Facilitates the execution and management of Node.js scripts and servers with permission prompts and comprehensive monitoring tools.
 - [thisistheaj/slot-starters](https://github.com/thisistheaj/slot-starters): Slot is a Model Context Protocol server that intelligently discovers and analyzes starter templates for developers directly within AI assistant workflows.
 - [vivalalova/mcp_practice](https://github.com/vivalalova/mcp_practice): A TypeScript-based MCP server implementing a simple notes system with resources, tools, and prompts for note management and summarization.
-- [keurcien/choose-mcp-server](https://github.com/keurcien/choose-mcp-server): Facilitates the setup of an MCP server for seamless integration with Claude Desktop and Google Cloud services.
 - [ArchimedesCrypto/figma-mcp-chunked](https://github.com/ArchimedesCrypto/figma-mcp-chunked): Interact with the Figma API using a memory-efficient MCP server that supports chunking and pagination for handling large files.
 - [entrepeneur4lyf/mcp-rs-template](https://github.com/entrepeneur4lyf/mcp-rs-template): A Rust-based template for implementing MCP CLI servers, facilitating seamless integration between LLM applications and external data sources.
 - [TheSethRose/MCP-Server-Starter](https://github.com/TheSethRose/MCP-Server-Starter): A TypeScript-based starter template for building Model Context Protocol servers, facilitating seamless integration with AI platforms.
@@ -231,7 +217,6 @@ Toolkits, SDKs, starter templates, or code frameworks designed to help developer
 - [svilupp/ModelContextProtocol.jl](https://github.com/svilupp/ModelContextProtocol.jl): A Julia SDK for building MCP-compliant servers and clients, enabling AI models to access external tools via JSON-RPC 2.0.
 - [chromindscan/chromia-mcp](https://github.com/chromindscan/chromia-mcp): Facilitates Claude AI's interaction with Chromia Wallet for seamless $CHR transactions.
 - [Sheshiyer/framer-plugin-mcp](https://github.com/Sheshiyer/framer-plugin-mcp): Facilitates the creation and management of Framer plugins with integrated web3 features, including wallet connections and NFT displays.
-- [pythonpete32/mcp-server-template](https://github.com/pythonpete32/mcp-server-template): A TypeScript-based MCP server for interacting with EVM chains, featuring a notes system with tools for note creation and summarization.
 - [zcaceres/mcp-boilerplate](https://github.com/zcaceres/mcp-boilerplate): A boilerplate project for quickly setting up a Model Context Protocol server with customizable tools and logic.
 - [Sunwood-ai-labs/documind-mcp-server](https://github.com/Sunwood-ai-labs/documind-mcp-server): DocuMind MCP Server enhances documentation quality analysis with advanced neural processing and AI-powered improvement recommendations.
 - [dkmaker/mcp-tavily-server](https://github.com/dkmaker/mcp-tavily-server): A TypeScript-based MCP server implementing a simple notes system with resources, tools, and prompts for note management and summarization.
@@ -248,3 +233,4 @@ Toolkits, SDKs, starter templates, or code frameworks designed to help developer
 
 
 - [MervinPraison/praisonai-mcp](https://github.com/MervinPraison/praisonai-mcp): An AI Agents framework providing 64+ built-in MCP tools for search, memory management, workflow orchestration, code execution, and file operations. Install via uvx praisonai-mcp.
+- [ReadyAgents](https://github.com/readyagents/readyagents-core): Local one-shot YAML/JSON agent workflow CLI with tools, approvals, resume, and an optional stdio MCP server for built-in tools. Install: `pip install "readyagents[mcp]"`; run `readyagents mcp serve`. Apache-2.0, BYOK.

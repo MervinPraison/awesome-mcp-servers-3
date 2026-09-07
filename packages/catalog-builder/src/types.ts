@@ -3,6 +3,11 @@ export type AuthType = "none" | "api-key" | "oauth" | "bearer" | "unknown";
 export type Confidence = "high" | "medium" | "low";
 export type VerificationStatus = "unknown" | "self_reported" | "partial" | "verified" | "failing";
 
+export interface CatalogSourceMetadata {
+  lastUpdatedAt?: string | null;
+  pullRequest?: number | null;
+}
+
 export interface CatalogEntry {
   id: string;
   name: string;
@@ -13,6 +18,7 @@ export interface CatalogEntry {
     docsPath: string | null;
     featuredInReadme: boolean;
     pullRequest?: number | null;
+    lastUpdatedAt?: string | null;
   };
   links: {
     primary: string;
@@ -38,6 +44,8 @@ export interface CatalogEntry {
     source: "self_reported" | "verified" | "unknown";
   };
   license: string;
+  installReady: boolean;
+  verifiedAt: string | null;
   health: {
     repoPublic: boolean | null;
     packageFound: boolean | null;
@@ -53,6 +61,25 @@ export interface CatalogEntry {
     verifiedBy: string[];
     claimed: boolean;
   };
+}
+
+export interface CatalogMetadataOverride {
+  id?: string;
+  source?: {
+    issue?: number;
+    projectUrl?: string;
+  };
+  description?: string;
+  category?: string;
+  links?: Partial<Pick<CatalogEntry["links"], "docs" | "endpoint">>;
+  install?: Partial<CatalogEntry["install"]>;
+  transport?: Transport[];
+  auth?: Partial<CatalogEntry["auth"]>;
+  clients?: string[];
+  tools?: Partial<CatalogEntry["tools"]>;
+  license?: string;
+  verification?: Partial<CatalogEntry["verification"]>;
+  community?: Partial<CatalogEntry["community"]>;
 }
 
 export interface ParsedMarkdownEntry {

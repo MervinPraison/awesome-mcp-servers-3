@@ -39,6 +39,8 @@ const createEntry = (overrides: Partial<CatalogEntry> = {}): CatalogEntry => ({
     source: "unknown",
   },
   license: "MIT",
+  installReady: true,
+  verifiedAt: null,
   health: {
     repoPublic: null,
     packageFound: null,
@@ -59,12 +61,35 @@ const createEntry = (overrides: Partial<CatalogEntry> = {}): CatalogEntry => ({
 
 describe("renderProfile", () => {
   it("renders static profile metadata for a catalog entry", () => {
-    const profile = renderProfile(createEntry(), "https://tensorblock.co/mcp");
+    const profile = renderProfile(createEntry(), "https://tensorblock.co/mcp/servers");
 
     expect(profile.id).toBe("github-owner-demo");
-    expect(profile.profileUrl).toBe("https://tensorblock.co/mcp/github-owner-demo");
-    expect(profile.badgeMarkdown).toContain("Listed on TensorBlock MCP Index");
+    expect(profile.profileUrl).toBe("https://tensorblock.co/mcp/servers/github-owner-demo");
+    expect(profile.badgeMarkdown).toBe(
+      "[![Indexed on TensorBlock MCP Index](https://mcp-index.tensorblock.co/v1/servers/github-owner-demo/badge.svg)](https://tensorblock.co/mcp/servers/github-owner-demo)"
+    );
+    expect(profile.install).toEqual({
+      commands: ["npx -y @owner/demo-mcp"],
+      env: ["DEMO_API_KEY"],
+      confidence: "medium",
+    });
+    expect(profile.transport).toEqual(["stdio"]);
+    expect(profile.auth).toEqual({
+      type: "api-key",
+      notes: ["Requires DEMO_API_KEY."],
+    });
+    expect(profile.clients).toEqual(["claude"]);
+    expect(profile.license).toBe("MIT");
+    expect(profile.installReady).toBe(true);
+    expect(profile.verifiedAt).toBeNull();
+    expect(profile.health).toEqual({
+      repoPublic: null,
+      packageFound: null,
+      endpointReachable: null,
+      lastCheckedAt: null,
+    });
     expect(profile.summary.installConfidence).toBe("medium");
+    expect(profile.summary.installReady).toBe(true);
   });
 
   it("removes stale profile JSON files before writing current profiles", () => {
